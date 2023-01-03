@@ -1,0 +1,73 @@
+Body{
+    background: url(https://i.pinimg.com/originals/30/3a/a7/303aa7f0a81a80ccf88a4f30b9955099.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 1px 5px #000;
+    position: fixed;
+    background: #C8DFE7;
+}
+h2{
+    text-align: left;
+    font-family:inherit;
+    color:black;
+    font-size: 200%;  
+    padding: 0px;
+    padding-left: 30px;
+}
+h3{
+    font-family: monospace;
+    color: Black;
+    font-size: 255%;
+    padding-left: 30px;
+}
+.Uno > li{
+    display: block;
+    float: left;
+    list-style: none;
+    height: 30px;
+    overflow: hidden;
+    text-align:left;
+}
+.Uno > li:hover{
+    height: auto;
+}
+.Dos > li{
+    list-style: none;
+    margin-left: -30px;
+    font-size: 20px;
+}
+.Dos a{
+    color: #1C2833 ;
+    text-decoration: none;
+}
+.Dos a:hover{
+    color: white; 
+}
+.Uno > li > a{
+    width: 240px;
+    display: block;
+    float:left;
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+    font-size: 23px;
+}
+P {
+  padding-left: 30px;
+  overflow: hidden;
+  height: 90%;
+  width: 1200px;
+  text-align: justify;
+}
+table{
+  padding-left: 30px;
+  border-color: black;
+    
+}
+ol{
+    padding-left: 30px;
+}
